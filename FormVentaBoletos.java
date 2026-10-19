@@ -159,4 +159,10 @@ public class FormVentaBoletos extends JFrame {
         lblDisponiblesLoja.setText("QUITO - LOJA disponibles: " + busLoja.getDisponibles());
         lblRecaudacion.setText("Monto total recaudado: $" + String.format("%.2f", totalRecaudado));
     }
+    public static void main(String[] args) {
+
+        FormVentaBoletos ventana = new FormVentaBoletos();
+        ventana.setVisible(true);
+
+    }
 }
